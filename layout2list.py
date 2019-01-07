@@ -2,6 +2,7 @@
 import demjson
 
 
+# all unit is inch
 def rawData2list(rawData):
 
     layout = demjson.decode('[' + rawData + ']')
